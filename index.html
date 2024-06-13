@@ -1,195 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
     <link rel="stylesheet" href="./assets/styles/style.css" />
-</head>
+  </head>
 
-<header class="header">
+  <header class="header">
     <nav class="header__nav">
-        <p class="header__nav-title">Menu</p>
-        <ul class="header__menu">
-            <li class="header__menu-item"><a class="header__menu-link" href="#summary">Summary</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#work">Work experience</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#projects">Pet projects</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#education">Education</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#contacts">Contacts</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#links">Links</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#languages">Languages</a></li>
-            <li class="header__menu-item"><a class="header__menu-link" href="#skills">Skills</a></li>
-        </ul>
+      <p class="header__nav-title">Menu</p>
+      <ul class="header__menu">
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#summary">Summary</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#work">Work experience</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#projects">Pet projects</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#education">Education</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#contacts">Contacts</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#links">Links</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#languages">Languages</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#skills">Skills</a>
+        </li>
+      </ul>
     </nav>
-</header>
+  </header>
 
-<body>
+  <body>
     <main>
-        <section class="resume">
-            <div class="main-info" id="main-info">
-                <img class="main-info__avatar" src="./assets/images/avatar.jpg" />
-                <div class="main-info__data">
-                    <h1 class="main-info__name">Daria Evtushok</h1>
-                    <p class="main-info__vacancy">Frontend Developer</p>
-                </div>
-            </div>
-
-            <div class="summary" id="summary">
-                <div class="resume-header">
-                    <h2 class="resume-title">Summary</h2>
-                    <span class="resume-separator"></span>
-                    <img class="resume-img" src="./assets/images/resume/person.svg" />
-                </div>
-                <p>I have a good knowledge of JavaScript and it’s last standards.</p>
-                <p>I have experience in ReactJS and Vue.js.</p>
-                <p>I like to create, find a way out in difficult situations, able to learn new technologies and use it
-                    in
-                    practice rapidly.</p>
-            </div>
-
-            <div class="work" id="work">
-                <div class="resume-header">
-                    <h2 class="resume-title">Work experience</h2>
-                    <span class="resume-separator"></span>
-                    <img class="resume-img" src="./assets/images/resume/work.svg" />
-                </div>
-                <p class="work__company">TeachMeSkills</p>
-                <p class="work__position"><span class="accent">Positon: </span>Frontend Developer</p>
-                <p class="work__responsibilities"><span class="accent">Responsibilities: </span>Create
-                    cross-browser apps with responsive design</p>
-                <p class="work__stack"><span class="accent">Tech stack: </span>JS, TypeScript, React,
-                    React-Router, Redux, Redux toolkit,
-                    HTML, CSS, SCSS, Styled-components, axios, Bootstrap, Material UI, React Leaflet, Victory,
-                    Moment.js, Luxon, Node.js, Webpack, Gulp, Git, BEM, Figma, Scrum, OOP.
-                </p>
-                <p class="work__dates">04.2022 – 12.2022</p>
-                <p class="work__company">Belavia</p>
-                <p class="work__position"><span class="accent">Positon: </span>Ecologist</p>
-                <p class="work__dates">02.2013 – present</p>
-            </div>
-
-            <div class="projects" id="projects">
-                <div class="resume-header">
-                    <h2 class="resume-title">Pet projects</h2>
-                    <span class="resume-separator"></span>
-                    <img class="resume-img" src="./assets/images/resume/pen.svg" />
-                </div>
-                <div class="project-list">
-                    <a class="project" href="https://github.com/Darya020489/weather-app">
-                        <h3 class="project__title">WeatherApp</h3>
-                        <img class="project__img" src="./assets/images/projects/weather.png" />
-                        <p class="project__technologies"><span class="accent">Technologies: </span>Java Script, React,
-                            Redux, toolkit, Styled-components, HTML, CSS, SCSS, Material UI, React Leaflet, Victory,
-                            Luxon, axios.</p>
-                    </a>
-                    <a class="project" href="https://github.com/Darya020489/Cat-store">
-                        <h3 class="project__title">CatStore</h3>
-                        <img class="project__img" src="./assets/images/projects/cat-store.png" />
-                        <p class="project__technologies"><span class="accent">Technologies: </span>HTML5, CSS3 (SCSS
-                            Pre-processor) were used according to BEM methodology, JavaScript, HTML, CSS, axios. Gulp
-                            bundler was used to build the project.</p>
-                    </a>
-                    <a class="project" href="https://github.com/Darya020489/gulp-axit">
-                        <h3 class="project__title">Axit</h3>
-                        <img class="project__img" src="./assets/images/projects/axit.png" />
-                        <p class="project__technologies"><span class="accent">Technologies: </span>this app has a
-                            responsive design made using HTML, CSS, through the SCSS preprocessor according to the BEM
-                            methodology. The Gulp task-runner was used.</p>
-                    </a>
-                </div>
-                <p class="projects__other">My other projects you can view in my
-                    <a class="projects__link" href="https://github.com/Darya020489">GitHub</a> account.
-                </p>
-            </div>
-
-            <div class="education" id="education">
-                <div class="resume-header">
-                    <h2 class="resume-title">education</h2>
-                    <span class="resume-separator"></span>
-                    <img class="resume-img" src="./assets/images/resume/education.svg" />
-                </div>
-                <p class="education__university">Moscow Timiryazev Agricultural Academy</p>
-                <p class="education__level">Higher education</p>
-                <p class="education__specialization">Ecologist</p>
-                <p class="education__dates">2006 – 2011</p>
-            </div>
-        </section>
-
-        <div class="modal">
-            <div class="modal__content">
-                <img class="modal__img" src="./assets/images/avatar.jpg" />
-                <div class="modal__desc">
-                    <p class="modal__name">Daria Evtushok</p>
-                    <p class="modal__vacancy">Frontend Developer</p>
-                </div>
-            </div>
+      <section class="resume">
+        <div class="main-info" id="main-info">
+          <img class="main-info__avatar" src="./assets/images/avatar.jpg" />
+          <div class="main-info__data">
+            <h1 class="main-info__name">Darya Evtushok</h1>
+            <p class="main-info__vacancy">Frontend Developer</p>
+            <p class="main-info__vacancy">(React, React Native)</p>
+          </div>
         </div>
 
-        <aside class="additional-info">
-            <div class="contacts" id="contacts">
-                <h2 class="additional-info__title">contacts</h2>
-                <div class="contacts__item">
-                    <img class="contacts__img" src="./assets/images/additionalInfo/home.svg" />
-                    <p class="contacts__desc">Minsk, Belarus</p>
-                </div>
-                <a class="contacts__item" href="mailto: dariaevtushok@gmail.com">
-                    <img class="contacts__img" src="./assets/images/additionalInfo/email.svg" />
-                    <p class="contacts__desc">dariaevtushok@gmail.com</p>
-                </a>
-                <a class="contacts__item" href="tel: +375333276033">
-                    <img class="contacts__img" src="./assets/images/additionalInfo/phone.svg" />
-                    <p class="contacts__desc">+375(33)3276033</p>
-                </a>
-                <a class="contacts__item" href="https://t.me/dariaevtushok">
-                    <img class="contacts__img" src="./assets/images/additionalInfo/telegram.svg" />
-                    <p class="contacts__desc">Telegram</p>
-                </a>
-            </div>
+        <div class="summary" id="summary">
+          <div class="resume-header">
+            <h2 class="resume-title">Summary</h2>
+            <span class="resume-separator"></span>
+            <img class="resume-img" src="./assets/images/resume/person.svg" />
+          </div>
+          <p>I have a good knowledge of JavaScript and it’s last standards.</p>
+          <p>I have experience in React and React Native.</p>
+          <p>
+            I am able to quickly master new technologies and apply them in
+            practice, I am executive, diligent, and have a logical mindset.
+          </p>
+        </div>
 
-            <div class="links" id="links">
-                <h2 class="additional-info__title">links</h2>
-                <a class="links__item" href="https://www.linkedin.com/in/daria-evtushok-a451b5250/">
-                    <img class="links__img" src="./assets/images/additionalInfo/linkedin.svg" />
-                    <p class="links__desc">LinkedIn</p>
-                </a>
-                <a class="links__item" href="https://github.com/Darya020489">
-                    <img class="links__img" src="./assets/images/additionalInfo/github.svg" />
-                    <p class="links__desc">GitHub</p>
-                </a>
+        <div class="work" id="work">
+          <div class="resume-header">
+            <h2 class="resume-title">Work experience</h2>
+            <span class="resume-separator"></span>
+            <img class="resume-img" src="./assets/images/resume/work.svg" />
+          </div>
+          <div class="work__item">
+            <div class="flex">
+              <p class="work__company">Arctic Catering Services LLC</p>
+              <p class="work__dates">03.2023 – present</p>
             </div>
+            <p class="work__position">
+              <span class="accent">Positon: </span>Frontend developer
+            </p>
+            <p class="work__responsibilities">
+              <span class="accent">Responsibilities: </span>
+              <br />
+              Development and support of web applications on React.
+            </p>
+            <p class="work__responsibilities">
+              Development of cross-platform applications using React Native.
+            </p>
+            <p class="work__responsibilities">
+              Working with State managers (Redux, Redux toolkit).
+            </p>
+            <p class="work__responsibilities">
+              The release of applications in the AppStore, Google Play and
+              RuStore.
+            </p>
+            <p class="work__responsibilities">
+              Optimize applications for maximum speed and scalability.
+            </p>
+            <p class="work__responsibilities">
+              Collaboration with a team of backend developers to create an
+              effective user interface.
+            </p>
+            <p class="work__responsibilities">
+              Working with version control systems (GitHub).
+            </p>
+            <p class="work__stack">
+              <span class="accent">Tech stack: </span>
+              <br />
+              JS, TypeScript, React, React Native, React Navigation,
+              React-Router, Redux, Redux toolkit, react-hook-form, axios, ES6,
+              CSS, Styled-components, Bootstrap, Material UI, Ant Design,
+              Webpack, GitHub, Figma.
+            </p>
+          </div>
 
-            <div class="languages" id="languages">
-                <h2 class="additional-info__title">languages</h2>
-                <p>Russian</p>
-                <p>English (Intermediate)</p>
+          <div class="work__item">
+            <div class="flex">
+              <p class="work__company">TeachMeSkills</p>
+              <p class="work__dates">04.2022 – 12.2022</p>
             </div>
+            <p class="work__position">
+              <span class="accent">Positon: </span>
+              Frontend developer
+            </p>
+            <p class="work__responsibilities">
+              <span class="accent">Responsibilities: </span>
+              <br />
+              Create cross-browser apps with responsive design.
+            </p>
+            <p class="work__stack">
+              <span class="accent">Tech stack: </span>
+              <br />
+              JS, TypeScript, React, React-Router, Redux, Redux toolkit, HTML,
+              CSS, SCSS, Styled-components, axios, OOP, Bootstrap, Material UI,
+              React Leaflet, moment.js, Node.js, Webpack, Gulp, GitHub, BEM,
+              Scrum, Figma.
+            </p>
+          </div>
+          <div class="work__item">
+            <p class="work__company">Belavia</p>
+            <p class="work__position">
+              <span class="accent">Positon: </span>Ecologist
+            </p>
+            <p class="work__dates">02.2013 – present</p>
+          </div>
+        </div>
 
-            <div class="skills" id="skills">
-                <h2 class="additional-info__title">skills</h2>
-                <ul class="skills__list">
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>React</li>
-                    <li>React-Router</li>
-                    <li>Redux</li>
-                    <li>toolkit</li>
-                    <li>HTML, CSS</li>
-                    <li>CSS Preprocessors (SCSS, LESS)</li>
-                    <li>Git</li>
-                    <li>Bootstrap</li>
-                    <li>Material UI</li>
-                    <li>Node.js</li>
-                    <li>npm</li>
-                    <li>axios</li>
-                    <li>Webpack, Gulp</li>
-                    <li>Figma</li>
-                </ul>
-            </div>
-        </aside>
+        <div class="projects" id="projects">
+          <div class="resume-header">
+            <h2 class="resume-title">Pet projects</h2>
+            <span class="resume-separator"></span>
+            <img class="resume-img" src="./assets/images/resume/pen.svg" />
+          </div>
+          <div class="project-list">
+            <a
+              class="project"
+              href="https://github.com/Darya020489/weather-app"
+            >
+              <h3 class="project__title">WeatherApp</h3>
+              <img
+                class="project__img"
+                src="./assets/images/projects/weather.png"
+              />
+              <p class="project__technologies">
+                <span class="accent">Technologies: </span>Java Script, React,
+                Redux, toolkit, Styled-components, HTML, CSS, SCSS, Material UI,
+                React Leaflet, Victory, Luxon, axios.
+              </p>
+            </a>
+            <a class="project" href="https://github.com/Darya020489/Cat-store">
+              <h3 class="project__title">CatStore</h3>
+              <img
+                class="project__img"
+                src="./assets/images/projects/cat-store.png"
+              />
+              <p class="project__technologies">
+                <span class="accent">Technologies: </span>HTML5, CSS3 (SCSS
+                Pre-processor) were used according to BEM methodology,
+                JavaScript, HTML, CSS, axios. Gulp bundler was used to build the
+                project.
+              </p>
+            </a>
+            <a class="project" href="https://github.com/Darya020489/gulp-axit">
+              <h3 class="project__title">Axit</h3>
+              <img
+                class="project__img"
+                src="./assets/images/projects/axit.png"
+              />
+              <p class="project__technologies">
+                <span class="accent">Technologies: </span>this app has a
+                responsive design made using HTML, CSS, through the SCSS
+                preprocessor according to the BEM methodology. The Gulp
+                task-runner was used.
+              </p>
+            </a>
+          </div>
+          <p class="projects__other">
+            My other projects you can view in my
+            <a class="projects__link" href="https://github.com/Darya020489"
+              >GitHub</a
+            >
+            account.
+          </p>
+        </div>
+
+        <div class="education" id="education">
+          <div class="resume-header">
+            <h2 class="resume-title">education</h2>
+            <span class="resume-separator"></span>
+            <img
+              class="resume-img"
+              src="./assets/images/resume/education.svg"
+            />
+          </div>
+          <div class="flex">
+            <p class="education__university">
+              Moscow Timiryazev Agricultural Academy
+            </p>
+            <p class="education__dates">2006 – 2011</p>
+          </div>
+          <p class="education__level">Higher education</p>
+          <p class="education__specialization">Ecologist</p>
+        </div>
+        <div class="education" id="education">
+          <div class="resume-header">
+            <h2 class="resume-title">courses</h2>
+            <span class="resume-separator"></span>
+            <img class="resume-img" src="./assets/images/resume/course.svg" />
+          </div>
+          <div class="flex">
+            <p class="education__university">
+              Training Center Information Business Systems
+            </p>
+            <p class="education__dates">2024</p>
+          </div>
+          <p class="education__specialization">
+            React Advanced: Advanced topics
+          </p>
+        </div>
+      </section>
+
+      <div class="modal">
+        <div class="modal__content">
+          <img class="modal__img" src="./assets/images/avatar.jpg" />
+          <div class="modal__desc">
+            <p class="modal__name">Daria Evtushok</p>
+            <p class="modal__vacancy">Frontend Developer</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="additional-info">
+        <div class="contacts" id="contacts">
+          <h2 class="additional-info__title">contacts</h2>
+          <div class="contacts__item">
+            <img
+              class="contacts__img"
+              src="./assets/images/additionalInfo/home.svg"
+            />
+            <p class="contacts__desc">Minsk, Belarus</p>
+          </div>
+          <a class="contacts__item" href="mailto: dariaevtushok@gmail.com">
+            <img
+              class="contacts__img"
+              src="./assets/images/additionalInfo/email.svg"
+            />
+            <p class="contacts__desc">dariaevtushok@gmail.com</p>
+          </a>
+          <a class="contacts__item" href="tel: +375333276033">
+            <img
+              class="contacts__img"
+              src="./assets/images/additionalInfo/phone.svg"
+            />
+            <p class="contacts__desc">+375(33)3276033</p>
+          </a>
+          <a class="contacts__item" href="https://t.me/dariaevtushok">
+            <img
+              class="contacts__img"
+              src="./assets/images/additionalInfo/telegram.svg"
+            />
+            <p class="contacts__desc">Telegram</p>
+          </a>
+        </div>
+
+        <div class="links" id="links">
+          <h2 class="additional-info__title">links</h2>
+          <a
+            class="links__item"
+            href="https://www.linkedin.com/in/daria-evtushok-a451b5250/"
+          >
+            <img
+              class="links__img"
+              src="./assets/images/additionalInfo/linkedin.svg"
+            />
+            <p class="links__desc">LinkedIn</p>
+          </a>
+          <a class="links__item" href="https://github.com/Darya020489">
+            <img
+              class="links__img"
+              src="./assets/images/additionalInfo/github.svg"
+            />
+            <p class="links__desc">GitHub</p>
+          </a>
+        </div>
+
+        <div class="languages" id="languages">
+          <h2 class="additional-info__title">languages</h2>
+          <p>Russian</p>
+          <p>English (Intermediate)</p>
+        </div>
+
+        <div class="skills" id="skills">
+          <h2 class="additional-info__title">skills</h2>
+          <ul class="skills__list">
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>React Native</li>
+            <li>Redux</li>
+            <li>Redux</li>
+            <li>Redux toolkit</li>
+            <li>React Navigation</li>
+            <li>React-Router</li>
+            <li>Styled-components</li>
+            <li>CSS Preprocessors (SCSS, LESS)</li>
+            <li>GitHub</li>
+            <li>Bootstrap</li>
+            <li>Material UI</li>
+            <li>Ant Design</li>
+            <li>Node.js</li>
+            <li>axios</li>
+            <li>Webpack, Gulp</li>
+            <li>npm</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </aside>
     </main>
     <script src="./js/app.js" type="module"></script>
-</body>
-
+  </body>
 </html>
